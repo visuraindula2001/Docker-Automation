@@ -2,7 +2,7 @@ var express = require("express");
 var app = express();
 
 app.get("/", function (req, res) {
-  res.send('{ "response": "Hello, Welcome to VisuraCodes!!!"}');
+  res.send('{ "response": "Hello, Welcome !!!"}');
 });
 
 //listen to port 3000 by default
